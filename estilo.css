@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.logo{
+    position: absolute;
+}
+
+.contenedor {
+    width: 100%;
+
+}
+
+.entrada{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrada textarea{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #31c044;
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #0e0e0e;
+    background-color: #e0e0e0;
+}
+
+button:active{
+    background: linear-gradient(#0e0e0e,#e0e0e0);
+    transform: scale(1.1);
+    transition: all 500;
+}
+
+.copiado{
+    border: 1px solid black;
+    background: linear-gradient(#eee,#e0e0e0,#0e0e0e);
+    color: #0e0e0e;
+    padding: 5px;
+    position: absolute;
+    top: 15em;
+    display: none;
+    border-radius: 10px;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado textarea{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
